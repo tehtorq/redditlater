@@ -1,0 +1,24 @@
+{
+  "uiRevision": "2",
+	"id": "com.tehtorq.redditlater-hb",
+	"version": "0.0.1",
+	"vendor": "tehtorq",
+	"type": "web",
+	"main": "index.html",
+  "noWindow": true,
+  "dockMode": true,
+  "touchstoneMode": "enabled",
+	"title": "redditlater",
+	"icon": "icon.png",
+  "splashicon": "images/splash-small.png",
+	"splashBackground": "images/splash.png",
+  "noDeprecatedStyles":true,
+  "universalSearch":{
+      "search" :  {
+          "displayName": "redditlater",
+          "url":"com.tehtorq.redditlater-hb",
+          "launchParam":"searchString"
+      }
+  },
+  "keywords": ["reading"]
+}

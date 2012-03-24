@@ -1,0 +1,83 @@
+
+.frontpage-scene {
+  font-size: medium;
+}
+
+.article-scene {
+  font-size: small;
+}
+
+body.palm-default {
+  background-color: white;
+  /*background: url(../../images/gradient-background.png) center center repeat;*/
+  background-attachment:fixed;
+  -webkit-background-size: 101% 101%;
+}
+
+.loading {
+  background-color:black;
+  color:white;
+  position:fixed;
+  left:0px;
+  top: 50%;
+  font-size: large;
+  z-index:99999;
+  padding: 5px;
+  border-top: solid 1px gray;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+.palm-scrim {
+  opacity: 0;
+  -webkit-background-size: 0% 0%;
+}
+
+#buffer {
+  position: absolute;
+  left: 2000px;
+  font-size: small;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  /*width: 300px;*/
+  border: 1px solid yellow;
+}
+
+.page {
+  font-size: small;
+  background-color: white;
+  color: #333351;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  /*background: url(../../images/paper.png) center center repeat;*/
+/*  height: 300px;
+  width: 300px;*/
+  -webkit-transition-property: left;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: 'ease-out';
+}
+
+.current {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.previous {
+  position: absolute;
+  top: 80px;
+  left: -300px;
+}
+
+.next {
+  position: absolute;
+  top: 80px;
+  left: 320px;
+}
+
+h2 {
+  font-size: small;
+}
